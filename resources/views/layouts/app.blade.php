@@ -6,6 +6,7 @@
     </head>
 
     <body>
+        @include()
         @yield('content')
     </body>
 </html>
