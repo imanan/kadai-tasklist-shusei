@@ -16,11 +16,10 @@
                     {!! Form::label('content', 'メッセージ:') !!}
                     {!! Form::text('content', null, ['class' => 'form-control']) !!}
                 </div>
-        </div>
-    </div>
 
     {!! Form::submit('投稿', ['class' => 'btn btn-primary']) !!}
-
+        </div>
+    </div>
     {!! Form::close() !!}
 
 @endsection
